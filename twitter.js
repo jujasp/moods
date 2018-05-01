@@ -21,7 +21,7 @@ const personality_insights = new PersonalityInsightV3({
     version_date: '2017-10-13',
     headers: {'X-Watson-Learning-Opt-Out': 'true'}
   })
-
+//test
 passport.use(strategy)
 
 router.get('/login', 
